@@ -1,0 +1,8 @@
+Num	Name	Vorname	Geburtsdatum	Geschlecht	Email-Adresse	Telefonnummer	Straße	Hausnummer	PLZ	Stadt	Password
+0	Amirali	Aali	06.11.2001	m	amiraliaali@gmail.com	0123456	Straße1	10	1	Stadt1	123456
+1	testOne	test	11.03.2004	m	email1test@gmail.com	01234567	Straße1	10	2	Stadt2	1234
+2	testTwo	test	04.09.2000	w	email2test@gmail.com	012345678	Straße2	42	3	Stadt3	1234567
+3	testThree	test	04.12.1985	w	email3test@gmail.com	012345	Straße3	10	4	Stadt4	12345678
+4	testFour	test	07.12.2002	m	email4test@gmail.com	01234	Straße4	14	5	Stadt5	1234321
+5	testFive	test	08.04.1997	m	email5test@gmail.com	0123	Straße5	20	6	Stadt6	1234567890
+6	testSix	test	06.06.2003	w	email5test@gmail.com	192837465	Straße6	10	7	Stadt7	123321
