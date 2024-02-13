@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build login_system",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "${workspaceFolder}/scripts/sources/main.cpp",
+                "${workspaceFolder}/scripts/sources/system.cpp",
+                "${workspaceFolder}/scripts/sources/user.cpp",
+                "-o",
+                "${workspaceFolder}/scripts/build_files/main"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+        },
+        {
+            "label": "run login_system",
+            "type": "shell",
+            "command": "${workspaceFolder}/scripts/build_files/main",
+            "args": [
+                "${workspaceFolder}/car_data_set.csv",
+            ],
+            "group": "none",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+    ]
+}
