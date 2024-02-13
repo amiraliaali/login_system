@@ -14,9 +14,28 @@ private:
 
 public:
     System() : number_of_data_(0), first_line_("") {read_data();}
+    /**
+     * @brief Read user data from file
+    */
     void read_data();
+
+    /**
+     * @brief Add new user to the system
+    */
     void new_user();
+
+    /**
+     * @brief Print user data table
+    */
     void print_data();
+
+    /**
+     * @brief Save the current data to the file
+    */
     void file_writer();
+
+    /**
+     * @brief Attempt to sign in a user
+    */
     void sign_in();
 };
