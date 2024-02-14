@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../headers/system.hpp"
+#include "system.hpp"
 
 int main(void){
     System main_system;
